@@ -4,7 +4,7 @@ import pandas as pd
 import getpass
 import os
 
-dbms = mysql.connector.connect(host= 'localhost', user= 'root', passwd= 'root', database= 'credentials')
+dbms = mysql.connector.connect(host= 'localhost', user= 'root', passwd= 'root', database= 'credentials') #If you are copying this so remember to put in your SQL host, user and password
 
 curs = dbms.cursor() #point at operators in mysql
 
